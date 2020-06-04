@@ -1,0 +1,36 @@
+html,body
+{
+    height: 100%;
+}
+
+@font-face 
+{
+    font-family: seven-segment;
+    src:url("fonts/seven-segment.ttf");
+}
+
+@font-face 
+{
+    font-family: bttf;
+    src:url("fonts/BTTF.ttf");
+}
+
+#clock
+{
+    font-family: seven-segment;
+    font-size: 12rem;
+    text-align: center;
+    position: relative;
+    top: 50%; /*A vertikális közép de nem egészen!!*/
+    margin-top: -9rem; /*Ezzel lehet korrigálni*/
+    /*display: inline-block;*/
+    /*left: 50%;
+    margin-left: -21rem;*/
+    border: 1px solid white;
+    border-radius: .5rem;
+    padding: 3rem;
+    color: whitesmoke;
+    text-shadow: black 3px 3px;
+    background: url('assets/cover.jpg') center;
+    background-size: cover;
+}
